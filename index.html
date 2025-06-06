@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Set character encoding and responsive behavior -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Baihly Woods Preservation Association (BWPA)</title>
+
+  <!-- Google Font for a clean modern look -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+
+  <!-- Internal CSS for layout and styling -->
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background: url('woods.jpg') no-repeat center center fixed; /* Full-page background */
+      background-size: cover; /* Cover entire viewport */
+      color: #2f3e2e;
+    }
+    header {
+      background: rgba(60, 95, 60, 0.85); /* Semi-transparent header */
+      color: white;
+      padding: 1rem 2rem;
+      text-align: center;
+      border-radius: 0; /* Remove rounding */
+      margin: 0; /* Remove margin for full width */
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background: rgba(47, 79, 47, 0.85); /* Semi-transparent nav */
+      margin: 0; /* Full width, no margin */
+      border-radius: 0; /* Remove rounding */
+    }
+    nav a {
+      color: white;
+      padding: 1rem;
+      text-decoration: none;
+    }
+    nav a:hover {
+      background: rgba(69, 103, 69, 0.85);
+    }
+    .container {
+      max-width: 960px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background: rgba(255, 255, 255, 0.85); /* Semi-transparent background */
+      border-radius: 1rem; /* Rounded corners */
+      box-shadow: 0 0 20px rgba(0,0,0,0.2); /* Subtle shadow */
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: rgba(60, 95, 60, 0.85);
+      color: white;
+      border-radius: 0; /* Remove rounding */
+      margin: 0; /* Full width, no margin */
+    }
+    img.map {
+      max-width: 100%;
+      height: auto;
+      margin-top: 1rem;
+      border: 2px solid #ccc;
+      border-radius: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+  <!-- Site Header -->
+  <header>
+    <h1>Baihly Woods Preservation Association</h1>
+    <p>Stewarding 10.2 acres of community woodland since 1997</p>
+  </header>
+
+  <!-- Main navigation bar -->
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#stewardship">Stewardship</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- Main content wrapper -->
+  <div class="container">
+
+    <!-- Home/About section -->
+    <section id="home">
+      <h2>About the Woods</h2>
+      <p>The Baihly Woods Preservation Association (BWPA) was established in 1997 when 15 original members, owning adjoining properties, purchased a 10.2 acre parcel of woodland.</p>
+      <p>This woodland is a cherished natural space, protected and stewarded by our community through a local land trust. We are dedicated to preserving its biodiversity, ensuring access for future generations, and providing a place for peace, exploration, and learning.</p>
+      <img src="map.jpg" alt="Map of the woods" class="map" />
+    </section>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Baihly Woods Preservation Association</p>
+  </footer>
+</body>
+</html>
